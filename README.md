@@ -116,7 +116,7 @@ The model was evaluated using the following metrics:
 - Assumes input text is in English.
 
 ## Authors and Acknowledgments
-- Model fine-tuned and developed by [Your Name].
+- Model fine-tuned and developed by **Hassan Jamshaid**.
 - Base model: `ahxt/LiteLlama-460M-1T` from Hugging Face.
 
 ## License
