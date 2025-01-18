@@ -88,23 +88,6 @@ result = predict_project_feasibility(instruction, project_description)
 print(f"The project idea is: {result}")
 ```
 
-### Save Model to Google Drive
-To save the trained model to Google Drive:
-```python
-from google.colab import drive
-import shutil
-
-drive.mount('/content/drive')
-
-# Define paths
-local_model_path = "cold_learning_rate1e2"
-drive_model_path = "/content/drive/My Drive/cold_learning_rate1e2"
-
-# Copy the model folder to Google Drive
-shutil.copytree(local_model_path, drive_model_path)
-print(f"Model saved to {drive_model_path}")
-```
-
 ### Download Model to Local Machine
 To download the model folder to your PC:
 ```python
